@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+</head>
+<body>
+    <h1>Welcome to my page!!</h1>
+    <form action="/api/pets" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" />
+        </div>
+        <br>
+        <div>
+            <label for="type">Type</label>
+            <input type="text" name="type" />
+        </div>
+        <br>
+        <div>
+            <label for="file">File</label>
+            <input type="file" name="thumbnail" />
+        </div>
+        <br>
+        <button type="submit">Create pet</button>
+
+    </form>
+</body>
+</html>
